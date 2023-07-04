@@ -203,3 +203,4 @@ class AudioConverter: AudioConvertable {
         let ratio = time / duration
         return AVAudioFramePosition(Double(frameCount) * ratio)
     }
+}
